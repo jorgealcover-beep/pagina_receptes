@@ -14,5 +14,11 @@
 }
 .element {
 	margin-bottom: 5px;
-	width: 10%;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-color: #8c5b79;
+
+}
+href {
+	color: green;
 }
