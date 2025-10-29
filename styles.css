@@ -1,14 +1,13 @@
+body {
+	margin: 0px;
+}
 .header {
 	display: flex;
 	flex-direction: row;
-	z-index: 2;
 	width: 100%;
 	height: 5%;
 	border-bottom: 2px solid black;
 	background-color: #5b8c6e;
-	position: fixed;
-	top: 0px;
-	left: 0px;
 	font-family: "Arial";
 }
 .logo {
@@ -33,9 +32,19 @@ h1 {
 	margin-bottom: 5px;
 }
 h2 {
-	font-size: 16px;
+	font-size: 12px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+h3 {
+	font-size: 30px;
+	margin-left: 50px;
+
+}
+h4 {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .boton {
 	height: 25px;
@@ -49,4 +58,39 @@ h2 {
 .defaultImg {
 	height: 150px;
 	padding-left: 80px;
+}
+.Categories{
+	display: flex;
+	flex-direction: row;
+	padding-left: 100px;
+	border-bottom: 3px solid black;
+}
+.Latest {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.recipe {
+	padding-left: 2%;
+	padding-right: 2%;
+	width: 400px;
+}
+.RecipeImg {
+	margin: 0px;
+}
+.zonaMail {
+	display: flex;
+	flex-direction: row;
+	margin: 50px;
+	padding: 30px;
+	justify-content: center;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.TextMail {
+	padding-left: 0px;
+	padding-right: 100px;
+}
+.mail {
+	margin-top: 30px;
 }
