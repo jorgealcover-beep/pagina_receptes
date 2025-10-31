@@ -1,8 +1,8 @@
+
 .header {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
-	height: 5%;
 	border-bottom: 2px solid black;
 	background-color: #5b8c6e;
 	position: fixed;
@@ -10,15 +10,22 @@
 	left: 0px;
 }
 .logo {
-	width: 40%;
+	height: 25px;
 }
 .element {
-	margin-bottom: 5px;
 	padding-left: 20px;
 	padding-right: 20px;
-	font-color: #8c5b79;
-
+	margin-top: 5px;
 }
-href {
-	color: green;
+a{
+	color: #000;
+	text-decoration: none;
+}
+.perfil{
+	height: 25px;
+	position: fixed;
+	right: 20px;
+}
+.PrimeraReceta{
+
 }
